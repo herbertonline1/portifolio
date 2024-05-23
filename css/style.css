@@ -12,6 +12,21 @@ body {
     height: 100vh;
 }
 
+/* MINHA FOTO */
+.efeito-img-topo img {
+    width: 500px;
+    
+    border-radius: 70% ;
+    border: solid 6px #00FF08;
+}
+
+.efeito-img-sobre img{
+    width: 500px;
+   
+    border-radius: 70%;
+    border: solid 6px #00FF08;
+}
+
 h2 {
     color: #fff;
 
@@ -716,6 +731,26 @@ footer .line-footer p a {
     .btn-abrir-menu{
         display: block;
     }
+
+
+
+
+
+
+
+/*ESTILO DO PROJETOS */
+
+section.portfolio {
+    padding: 8px 4%;
+    box-shadow: 0 0 40px 10px #ffffff33;
+}
+
+section.portfolio .flex {
+    /* gap: 80px; */
+    justify-content: space-around;
+    margin-top: 60px;
+    
+}
 
 
 
